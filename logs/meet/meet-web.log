@@ -42,3 +42,5 @@ hostname: bogon
 2020-05-21 13:38:00,011 INFO 3796 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2038%2013%20*%20*%20%3F&type=all&immediate=false] 获取cookie 2020-05-21+13:38:00
 2020-05-21 13:40:00,012 INFO 3822 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2040%2013%20*%20*%20%3F&type=all&immediate=false] 获取cookie 2020-05-21+13:40:00
 2020-05-21 13:49:00,015 INFO 3867 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2049%2013%20*%20*%20%3F&type=all&immediate=false] 获取cookie 2020-05-21+13:49:00
+2020-05-21 17:17:00,005 INFO 12307 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js&cron=00%2017%2017%20*%20*%20%3F&type=all&immediate=false] 获取cookie 2020-05-21+17:17:00
+2020-05-21 17:25:30,012 INFO 12380 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js&cron=30%2025%2017%20*%20*%20%3F&type=all&immediate=false] 获取cookie 2020-05-21+17:25:30

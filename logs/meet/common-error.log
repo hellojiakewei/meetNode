@@ -767,3 +767,67 @@ name: "ClusterClientNoResponseError"
 pid: 2774
 hostname: bogon
 
+2020-05-21 16:15:16,183 ERROR 11900 nodejs.TypeError: Cannot read property 'curl' of undefined
+    at module.exports (/Users/jack/Desktop/zwwl/Nodemeet/app/params/index.js:101:26)
+    at /Users/jack/Desktop/zwwl/Nodemeet/app/service/meet.js:29:9
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+
+pid: 11900
+hostname: bogon
+
+2020-05-21 16:17:29,182 ERROR 11947 nodejs.TypeError: Cannot read property 'curl' of undefined
+    at module.exports (/Users/jack/Desktop/zwwl/Nodemeet/app/params/index.js:101:26)
+    at /Users/jack/Desktop/zwwl/Nodemeet/app/service/meet.js:30:9
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+
+pid: 11947
+hostname: bogon
+
+2020-05-21 16:33:07,903 ERROR 12026 nodejs.ResponseTimeoutError: Response timeout for 5000ms, POST http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/jack/Desktop/zwwl/Nodemeet/node_modules/_urllib@2.35.0@urllib/lib/urllib.js:952:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8045,"keepAliveSocket":false,"requestUrls":["http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference"],"timing":null,"remoteAddress":"1.202.190.78","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 12026
+hostname: bogon
+
+2020-05-21 16:36:22,121 ERROR 12041 nodejs.ResponseTimeoutError: Response timeout for 5000ms, POST http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/jack/Desktop/zwwl/Nodemeet/node_modules/_urllib@2.35.0@urllib/lib/urllib.js:952:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5029,"keepAliveSocket":false,"requestUrls":["http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference"],"timing":null,"remoteAddress":"1.202.190.78","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 12041
+hostname: bogon
+
+2020-05-21 16:40:47,062 ERROR 12058 nodejs.ResponseTimeoutError: Response timeout for 5000ms, POST http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/jack/Desktop/zwwl/Nodemeet/node_modules/_urllib@2.35.0@urllib/lib/urllib.js:952:15)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5033,"keepAliveSocket":false,"requestUrls":["http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference"],"timing":null,"remoteAddress":"1.202.190.78","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 12058
+hostname: bogon
+

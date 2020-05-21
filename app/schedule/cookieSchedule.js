@@ -5,7 +5,7 @@ const monment = require('moment');
 class Meet511 extends Subscription {
   static get schedule() {
     return {
-      cron: '00 49 13 * * ?',
+      cron: '0 58 23 * * ?',
       type: 'all',
       immediate:false
     };

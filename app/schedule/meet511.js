@@ -5,15 +5,18 @@ class Meet511 extends Subscription {
   // 通过 schedule 属性来设置定时任务的执行间隔等配置
   static get schedule() {
     return {
-      cron: '00 50 13 * * ?', // 每天凌晨执行
+      cron: '0 0 0 * * ?', // 每天凌晨执行
       type: 'all',
       immediate:false
     };
   }
-  //自动订阅511会议室
+
+  /**
+   * 执行订阅任务
+   * @returns {Promise<void>}
+   */
   async subscribe() {
-      // this.ctx.logger.info('自动订阅511会议室')
-      console.log('自动订阅511会议室')
+      console.log('开始订阅会议室')
       this.service.meet.autoMeet();
   }
 }

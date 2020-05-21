@@ -2607,3 +2607,243 @@ headers: {"location":"http://www.gelifesciences.com/webapp/wcs/stores/servlet/ca
 2020-05-21 13:50:00,011 INFO 3867 [Job#15900402000094664009637386501] /Users/jack/Desktop/zwwl/meetNode/app/schedule/meet511.js executing by app
 2020-05-21 13:50:00,014 INFO 3867 [Job#15900402000094664009637386501] /Users/jack/Desktop/zwwl/meetNode/app/schedule/meet511.js execute succeed, used 3ms
 2020-05-21 13:50:00,011 INFO 3866 [Timer] /Users/jack/Desktop/zwwl/meetNode/app/schedule/meet511.js next time will execute after 86399991ms at 2020-05-22 13:50:00.002
+2020-05-21 16:09:04,756 INFO 11845 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44455246ms at 2020-05-22 04:30:00.002
+2020-05-21 16:09:04,756 INFO 11845 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 28255244ms at 2020-05-22 00:00:00.000
+2020-05-21 16:09:04,756 INFO 11845 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28256244ms at 2020-05-22 00:00:01.000
+2020-05-21 16:09:04,757 INFO 11845 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 77995244ms at 2020-05-22 13:49:00.001
+2020-05-21 16:09:04,758 INFO 11845 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 78055243ms at 2020-05-22 13:50:00.001
+2020-05-21 16:09:04,521 INFO 11846 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:09:04,521 INFO 11846 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:09:04,521 INFO 11846 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:09:04,521 INFO 11846 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:09:04,521 INFO 11846 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:12:26,536 INFO 11860 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:12:26,536 INFO 11860 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:12:26,536 INFO 11860 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:12:26,536 INFO 11860 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:12:26,536 INFO 11860 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:14:45,010 INFO 11886 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:14:45,010 INFO 11886 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:14:45,010 INFO 11886 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:14:45,010 INFO 11886 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:14:45,010 INFO 11886 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:15:08,217 INFO 11891 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:15:08,217 INFO 11891 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:15:08,217 INFO 11891 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:15:08,217 INFO 11891 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:15:08,217 INFO 11891 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:15:16,174 INFO 11899 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44083827ms at 2020-05-22 04:30:00.001
+2020-05-21 16:15:16,175 INFO 11899 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 27883825ms at 2020-05-22 00:00:00.000
+2020-05-21 16:15:16,175 INFO 11899 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27884825ms at 2020-05-22 00:00:01.000
+2020-05-21 16:15:16,176 INFO 11899 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 77623825ms at 2020-05-22 13:49:00.001
+2020-05-21 16:15:16,176 INFO 11899 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute immediate
+2020-05-21 16:15:16,177 INFO 11899 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 77683824ms at 2020-05-22 13:50:00.001
+2020-05-21 16:15:15,890 INFO 11900 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:15:15,890 INFO 11900 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:15:15,890 INFO 11900 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:15:15,890 INFO 11900 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:15:15,890 INFO 11900 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:15:16,177 INFO 11900 [Job#15900489161764751169607967311] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 16:15:16,178 INFO 11900 [Job#15900489161764751169607967311] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 1ms
+2020-05-21 16:17:28,875 INFO 11947 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:17:28,875 INFO 11947 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:17:28,875 INFO 11947 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:17:28,875 INFO 11947 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:17:28,875 INFO 11947 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:17:29,177 INFO 11947 [Job#15900490491774752499583282531] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 16:17:29,179 INFO 11947 [Job#15900490491774752499583282531] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 1ms
+2020-05-21 16:17:29,175 INFO 11946 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43950827ms at 2020-05-22 04:30:00.002
+2020-05-21 16:17:29,175 INFO 11946 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 27750825ms at 2020-05-22 00:00:00.000
+2020-05-21 16:17:29,176 INFO 11946 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27751825ms at 2020-05-22 00:00:01.001
+2020-05-21 16:17:29,176 INFO 11946 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 77490824ms at 2020-05-22 13:49:00.000
+2020-05-21 16:17:29,176 INFO 11946 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute immediate
+2020-05-21 16:17:29,178 INFO 11946 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 77550823ms at 2020-05-22 13:50:00.001
+2020-05-21 16:18:18,225 INFO 11950 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:18:18,225 INFO 11950 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:18:18,225 INFO 11950 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:18:18,225 INFO 11950 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:18:18,225 INFO 11950 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:18:37,372 INFO 11964 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43882630ms at 2020-05-22 04:30:00.002
+2020-05-21 16:18:37,372 INFO 11964 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 27682628ms at 2020-05-22 00:00:00.000
+2020-05-21 16:18:37,373 INFO 11964 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27683628ms at 2020-05-22 00:00:01.001
+2020-05-21 16:18:37,373 INFO 11964 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 77422627ms at 2020-05-22 13:49:00.000
+2020-05-21 16:18:37,373 INFO 11964 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute immediate
+2020-05-21 16:18:37,375 INFO 11964 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 77482626ms at 2020-05-22 13:50:00.001
+2020-05-21 16:18:37,242 INFO 11965 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:18:37,242 INFO 11965 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:18:37,242 INFO 11965 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:18:37,242 INFO 11965 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:18:37,242 INFO 11965 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:18:37,374 INFO 11965 [Job#15900491173744753181538026311] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 16:18:37,376 INFO 11965 [Job#15900491173744753181538026311] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 1ms
+2020-05-21 16:19:00,512 INFO 11968 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:19:00,512 INFO 11968 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:19:00,512 INFO 11968 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:19:00,512 INFO 11968 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:19:00,512 INFO 11968 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:19:12,150 INFO 11978 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43847852ms at 2020-05-22 04:30:00.002
+2020-05-21 16:19:12,150 INFO 11978 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 27647850ms at 2020-05-22 00:00:00.000
+2020-05-21 16:19:12,150 INFO 11978 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27648850ms at 2020-05-22 00:00:01.000
+2020-05-21 16:19:12,151 INFO 11978 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 77387850ms at 2020-05-22 13:49:00.001
+2020-05-21 16:19:12,151 INFO 11978 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute immediate
+2020-05-21 16:19:12,152 INFO 11978 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 77447849ms at 2020-05-22 13:50:00.001
+2020-05-21 16:19:12,017 INFO 11979 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:19:12,017 INFO 11979 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:19:12,017 INFO 11979 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:19:12,017 INFO 11979 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:19:12,017 INFO 11979 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:19:12,152 INFO 11979 [Job#15900491521514753529305486751] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 16:19:12,153 INFO 11979 [Job#15900491521514753529305486751] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 1ms
+2020-05-21 16:27:31,837 INFO 11996 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:27:31,837 INFO 11996 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:27:31,837 INFO 11996 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:27:31,837 INFO 11996 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:27:31,837 INFO 11996 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:31:21,882 INFO 12002 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:31:21,882 INFO 12002 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:31:21,882 INFO 12002 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:31:21,882 INFO 12002 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:31:21,882 INFO 12002 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:31:59,090 INFO 12006 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:31:59,090 INFO 12006 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:31:59,090 INFO 12006 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:31:59,090 INFO 12006 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:31:59,090 INFO 12006 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:32:59,847 INFO 12025 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43020155ms at 2020-05-22 04:30:00.002
+2020-05-21 16:32:59,847 INFO 12025 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 26820153ms at 2020-05-22 00:00:00.000
+2020-05-21 16:32:59,847 INFO 12025 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26821153ms at 2020-05-22 00:00:01.000
+2020-05-21 16:32:59,848 INFO 12025 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 76560153ms at 2020-05-22 13:49:00.001
+2020-05-21 16:32:59,848 INFO 12025 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute immediate
+2020-05-21 16:32:59,849 INFO 12025 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 76620151ms at 2020-05-22 13:50:00.000
+2020-05-21 16:32:59,591 INFO 12026 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:32:59,591 INFO 12026 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:32:59,591 INFO 12026 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:32:59,591 INFO 12026 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:32:59,591 INFO 12026 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:32:59,849 INFO 12026 [Job#15900499798484761806082186361] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 16:32:59,851 INFO 12026 [Job#15900499798484761806082186361] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 1ms
+2020-05-21 16:36:16,743 INFO 12041 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:36:16,743 INFO 12041 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:36:16,743 INFO 12041 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:36:16,743 INFO 12041 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:36:16,743 INFO 12041 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:36:17,085 INFO 12041 [Job#15900501770844763778393325981] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 16:36:17,087 INFO 12041 [Job#15900501770844763778393325981] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 1ms
+2020-05-21 16:36:17,083 INFO 12040 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42822919ms at 2020-05-22 04:30:00.002
+2020-05-21 16:36:17,083 INFO 12040 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 26622917ms at 2020-05-22 00:00:00.000
+2020-05-21 16:36:17,083 INFO 12040 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26623917ms at 2020-05-22 00:00:01.000
+2020-05-21 16:36:17,084 INFO 12040 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 76362917ms at 2020-05-22 13:49:00.001
+2020-05-21 16:36:17,084 INFO 12040 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute immediate
+2020-05-21 16:36:17,085 INFO 12040 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 76422916ms at 2020-05-22 13:50:00.001
+2020-05-21 16:40:25,983 INFO 12047 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:40:25,983 INFO 12047 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:40:25,983 INFO 12047 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:40:25,983 INFO 12047 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:40:25,984 INFO 12047 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:40:42,019 INFO 12057 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42557983ms at 2020-05-22 04:30:00.002
+2020-05-21 16:40:42,019 INFO 12057 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 26357981ms at 2020-05-22 00:00:00.000
+2020-05-21 16:40:42,019 INFO 12057 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26358981ms at 2020-05-22 00:00:01.000
+2020-05-21 16:40:42,020 INFO 12057 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 76097981ms at 2020-05-22 13:49:00.001
+2020-05-21 16:40:42,020 INFO 12057 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute immediate
+2020-05-21 16:40:42,021 INFO 12057 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 76157980ms at 2020-05-22 13:50:00.001
+2020-05-21 16:40:41,885 INFO 12058 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:40:41,885 INFO 12058 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:40:41,885 INFO 12058 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:40:41,885 INFO 12058 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:40:41,885 INFO 12058 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:40:42,021 INFO 12058 [Job#15900504420204766427660646161] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 16:40:42,022 INFO 12058 [Job#15900504420204766427660646161] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 1ms
+2020-05-21 16:43:47,920 INFO 12079 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:43:47,920 INFO 12079 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:43:47,920 INFO 12079 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:43:47,920 INFO 12079 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:43:47,920 INFO 12079 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 16:47:34,376 INFO 12100 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 16:47:34,376 INFO 12100 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 16:47:34,376 INFO 12100 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 16:47:34,376 INFO 12100 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 16:47:34,376 INFO 12100 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 17:16:52,533 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40387469ms at 2020-05-22 04:30:00.002
+2020-05-21 17:16:52,533 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 24187467ms at 2020-05-22 00:00:00.000
+2020-05-21 17:16:52,534 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24188467ms at 2020-05-22 00:00:01.001
+2020-05-21 17:16:52,534 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 7466ms at 2020-05-21 17:17:00.000
+2020-05-21 17:16:52,534 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js next time will execute immediate
+2020-05-21 17:16:52,534 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute immediate
+2020-05-21 17:16:52,534 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js next time will execute after 67466ms at 2020-05-21 17:18:00.000
+2020-05-21 17:16:52,534 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 67466ms at 2020-05-21 17:18:00.000
+2020-05-21 17:16:52,317 INFO 12307 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 17:16:52,317 INFO 12307 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 17:16:52,317 INFO 12307 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 17:16:52,317 INFO 12307 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 17:16:52,317 INFO 12307 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js
+2020-05-21 17:16:52,317 INFO 12307 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 17:16:52,535 INFO 12307 [Job#15900526125344788132198692901] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js executing by app
+2020-05-21 17:16:52,537 INFO 12307 [Job#15900526125344788132198692901] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js execute succeed, used 2ms
+2020-05-21 17:16:52,537 INFO 12307 [Job#15900526125344788132201688781] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 17:16:52,537 INFO 12307 [Job#15900526125344788132201688781] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 0ms
+2020-05-21 17:17:00,004 INFO 12307 [Job#15900526200034788206883911871] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js executing by app
+2020-05-21 17:17:00,018 INFO 12307 [Job#15900526200034788206883911871] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js execute succeed, used 14ms
+2020-05-21 17:17:00,008 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 86399997ms at 2020-05-22 17:17:00.005
+2020-05-21 17:18:00,007 INFO 12307 [Job#15900526800064788806898869302] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js executing by app
+2020-05-21 17:18:00,008 INFO 12307 [Job#15900526800064788806898869302] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js execute succeed, used 1ms
+2020-05-21 17:18:00,011 INFO 12307 [Job#15900526800104788806942536002] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 17:18:00,012 INFO 12307 [Job#15900526800104788806942536002] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 1ms
+2020-05-21 17:18:00,010 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js next time will execute after 86399994ms at 2020-05-22 17:18:00.004
+2020-05-21 17:18:00,016 INFO 12306 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 86399990ms at 2020-05-22 17:18:00.006
+2020-05-21 17:19:29,407 INFO 12331 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 17:19:29,407 INFO 12331 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 17:19:29,407 INFO 12331 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 17:19:29,407 INFO 12331 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 17:19:29,407 INFO 12331 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js
+2020-05-21 17:19:29,407 INFO 12331 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 17:20:06,403 INFO 12347 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40193599ms at 2020-05-22 04:30:00.002
+2020-05-21 17:20:06,403 INFO 12347 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 23993597ms at 2020-05-22 00:00:00.000
+2020-05-21 17:20:06,404 INFO 12347 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23994597ms at 2020-05-22 00:00:01.001
+2020-05-21 17:20:06,404 INFO 12347 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 7043596ms at 2020-05-21 19:17:30.000
+2020-05-21 17:20:06,404 INFO 12347 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js next time will execute after 53596ms at 2020-05-21 17:21:00.000
+2020-05-21 17:20:06,405 INFO 12347 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 83596ms at 2020-05-21 17:21:30.001
+2020-05-21 17:20:06,270 INFO 12348 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 17:20:06,270 INFO 12348 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 17:20:06,270 INFO 12348 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 17:20:06,270 INFO 12348 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 17:20:06,270 INFO 12348 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js
+2020-05-21 17:20:06,270 INFO 12348 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 17:21:00,005 INFO 12348 [Job#15900528600034790606820207451] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js executing by app
+2020-05-21 17:21:00,009 INFO 12348 [Job#15900528600034790606820207451] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js execute succeed, used 2ms
+2020-05-21 17:21:00,009 INFO 12347 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js next time will execute after 86399996ms at 2020-05-22 17:21:00.005
+2020-05-21 17:21:30,007 INFO 12348 [Job#15900528900064790906837340961] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 17:21:30,007 INFO 12348 [Job#15900528900064790906837340961] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 0ms
+2020-05-21 17:21:30,012 INFO 12347 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 86399994ms at 2020-05-22 17:21:30.006
+2020-05-21 17:23:38,558 INFO 12380 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 17:23:38,558 INFO 12380 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 17:23:38,558 INFO 12380 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 17:23:38,558 INFO 12380 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 17:23:38,558 INFO 12380 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js
+2020-05-21 17:23:38,558 INFO 12380 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 17:23:38,876 INFO 12379 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39981126ms at 2020-05-22 04:30:00.002
+2020-05-21 17:23:38,877 INFO 12379 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 23781124ms at 2020-05-22 00:00:00.001
+2020-05-21 17:23:38,877 INFO 12379 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23782123ms at 2020-05-22 00:00:01.000
+2020-05-21 17:23:38,877 INFO 12379 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 111123ms at 2020-05-21 17:25:30.000
+2020-05-21 17:23:38,877 INFO 12379 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js next time will execute after 141123ms at 2020-05-21 17:26:00.000
+2020-05-21 17:23:38,878 INFO 12379 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 171123ms at 2020-05-21 17:26:30.001
+2020-05-21 17:25:30,010 INFO 12379 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js next time will execute after 86399995ms at 2020-05-22 17:25:30.005
+2020-05-21 17:25:30,006 INFO 12380 [Job#15900531300044793306744598751] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js executing by app
+2020-05-21 17:25:30,021 INFO 12380 [Job#15900531300044793306744598751] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js execute succeed, used 13ms
+2020-05-21 17:26:00,016 INFO 12379 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js next time will execute after 86399991ms at 2020-05-22 17:26:00.007
+2020-05-21 17:26:00,010 INFO 12380 [Job#15900531600094793606783411131] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js executing by app
+2020-05-21 17:26:00,011 INFO 12380 [Job#15900531600094793606783411131] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js execute succeed, used 1ms
+2020-05-21 17:26:30,008 INFO 12380 [Job#15900531900074793906750375481] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js executing by app
+2020-05-21 17:26:30,008 INFO 12380 [Job#15900531900074793906750375481] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js execute succeed, used 0ms
+2020-05-21 17:26:30,011 INFO 12379 [Timer] /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js next time will execute after 86399993ms at 2020-05-22 17:26:30.003
+2020-05-21 17:31:24,494 INFO 12393 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 17:31:24,494 INFO 12393 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 17:31:24,494 INFO 12393 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 17:31:24,494 INFO 12393 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 17:31:24,494 INFO 12393 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js
+2020-05-21 17:31:24,494 INFO 12393 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js
+2020-05-21 17:34:13,143 INFO 12404 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-21 17:34:13,144 INFO 12404 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-21 17:34:13,144 INFO 12404 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-21 17:34:13,144 INFO 12404 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/cookieSchedule.js
+2020-05-21 17:34:13,144 INFO 12404 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet326.js
+2020-05-21 17:34:13,144 INFO 12404 [egg-schedule]: register schedule /Users/jack/Desktop/zwwl/Nodemeet/app/schedule/meet511.js

@@ -1,9 +1,7 @@
 const request = require('request');
 const fs = require('fs')
-module.exports=function(cookie,appTime,meetTime) {
+module.exports= function(ctx,cookie,appTime,meetTime) {
   const options = {
-    'method': 'POST',
-    'url': 'http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference',
     'headers': {
       'Host': 'bms.lanxum.com',
       'Cache-Control': 'max-age=0',
@@ -87,17 +85,11 @@ module.exports=function(cookie,appTime,meetTime) {
       'entity.longtextField3': ''
     }
   };
-  request(options, function (error, response) {
-    console.log('511发送请求')
-    // console.log(options)
-    if (error) {
-      throw new Error(error)
-    }else{
-      fs.writeFile('index.html',response.body,function(err,data) {
-      })
-    }
-
-  });
+  ctx.curl('http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference',{
+    method: 'POST',
+    headers: options.headers,
+    data:options.form
+  })
 }
 
 
