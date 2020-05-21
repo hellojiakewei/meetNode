@@ -1,0 +1,44 @@
+2020-05-20 15:59:00,010 INFO 182 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all] 获取cookie 2020-05-20+15:59:00
+2020-05-20 16:55:24,892 ERROR 588 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: app is not defined
+    at AppBootHook.serverDidReady (/Users/jack/Desktop/zwwl/meetNode/app.js:8:5)
+    at Object.callFn (/Users/jack/Desktop/zwwl/meetNode/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at /Users/jack/Desktop/zwwl/meetNode/node_modules/_egg-core@4.17.4@egg-core/lib/lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 588
+hostname: bogon
+
+2020-05-20 16:58:56,447 ERROR 609 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: app is not defined
+    at AppBootHook.serverDidReady (/Users/jack/Desktop/zwwl/meetNode/app.js:8:5)
+    at Object.callFn (/Users/jack/Desktop/zwwl/meetNode/node_modules/_egg-core@4.17.4@egg-core/lib/utils/index.js:44:21)
+    at /Users/jack/Desktop/zwwl/meetNode/node_modules/_egg-core@4.17.4@egg-core/lib/lifecycle.js:207:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 609
+hostname: bogon
+
+2020-05-20 16:59:27,272 INFO 641 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+16:59:27
+2020-05-20 16:59:27,278 INFO 641 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/meet511.js&cron=0%200%200%20*%20*%20%3F&type=all&immediate=true] 自动订阅511会议室
+2020-05-20 17:07:04,258 INFO 677 [-/127.0.0.1/-/4ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+17:07:04
+2020-05-20 17:07:04,264 INFO 677 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/meet511.js&cron=0%200%200%20*%20*%20%3F&type=all&immediate=true] 自动订阅511会议室
+2020-05-20 17:07:04,265 INFO 677 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/meet511.js&cron=0%200%200%20*%20*%20%3F&type=all&immediate=true] [schedule.meet511] cookie的值为: undefined
+2020-05-20 17:16:30,937 INFO 705 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+17:16:30
+2020-05-20 17:16:30,945 INFO 705 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/meet511.js&cron=0%200%200%20*%20*%20%3F&type=all&immediate=true] 自动订阅511会议室
+2020-05-20 17:16:30,949 INFO 705 [-/127.0.0.1/-/4ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/meet511.js&cron=0%200%200%20*%20*%20%3F&type=all&immediate=true] [service.meet] service::meetService:会议室自动注册开始
+2020-05-20 17:16:30,951 INFO 705 [-/127.0.0.1/-/5ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/meet511.js&cron=0%200%200%20*%20*%20%3F&type=all&immediate=true] [schedule.meet511] cookie的值为: Promise { undefined }
+2020-05-20 18:04:39,403 INFO 1132 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:04:39
+2020-05-20 18:05:38,339 INFO 1152 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:05:38
+2020-05-20 18:06:40,650 INFO 1167 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:06:40
+2020-05-20 18:07:48,453 INFO 1185 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:07:48
+2020-05-20 18:08:48,323 INFO 1200 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:08:48
+2020-05-20 18:10:21,006 INFO 1214 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:10:21
+2020-05-20 18:12:13,596 INFO 1232 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:12:13
+2020-05-20 18:15:21,367 INFO 1251 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:15:21
+2020-05-20 18:15:44,564 INFO 1266 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:15:44
+2020-05-20 18:16:31,868 INFO 1280 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:16:31
+2020-05-20 18:17:09,282 INFO 1300 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:17:09
+2020-05-20 18:18:26,068 INFO 1314 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:18:26
+2020-05-20 18:19:43,797 INFO 1331 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2059%2015%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-05-20+18:19:43
+2020-05-21 13:38:00,011 INFO 3796 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2038%2013%20*%20*%20%3F&type=all&immediate=false] 获取cookie 2020-05-21+13:38:00
+2020-05-21 13:40:00,012 INFO 3822 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2040%2013%20*%20*%20%3F&type=all&immediate=false] 获取cookie 2020-05-21+13:40:00
+2020-05-21 13:49:00,015 INFO 3867 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/jack/Desktop/zwwl/meetNode/app/schedule/cookieSchedule.js&cron=00%2049%2013%20*%20*%20%3F&type=all&immediate=false] 获取cookie 2020-05-21+13:49:00
