@@ -7,16 +7,13 @@ class Meet511 extends Subscription {
     return {
       cron: '0 0 0 * * ?', // 每天凌晨执行
       type: 'all',
-      immediate:false
+      immediate:true
     };
   }
-
-  /**
-   * 执行订阅任务
-   * @returns {Promise<void>}
-   */
+  //自动订阅511会议室
   async subscribe() {
-      console.log('开始订阅会议室')
+      // this.ctx.logger.info('自动订阅511会议室')
+      console.log('自动订阅511会议室')
       this.service.meet.autoMeet();
   }
 }

@@ -1,6 +1,6 @@
 const request = require('request');
 const fs = require('fs')
-module.exports=function(cookie,appTime,meetTime) {
+module.exports=function(ctx,cookie,appTime,meetTime) {
   var options = {
     'method': 'POST',
     'url': 'http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference',
@@ -89,7 +89,7 @@ module.exports=function(cookie,appTime,meetTime) {
     }
   };
   request(options, function (error, response) {
-    console.log('406发送请求')
+    ctx.logger.info('params:406发送请求')
     if (error) {
       throw new Error(error)
     }else{

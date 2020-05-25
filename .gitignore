@@ -3,6 +3,7 @@ node_modules
 /dist
 *.html
 cookie.txt
+/run
 
 # local env files
 .env.local

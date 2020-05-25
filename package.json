@@ -9,7 +9,8 @@
   "dependencies": {
     "egg": "^2.26.1",
     "egg-scripts": "^2.13.0",
-    "moment": "^2.26.0"
+    "moment": "^2.26.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "autod": "^3.1.0",
