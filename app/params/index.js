@@ -1,9 +1,7 @@
 const request = require('request');
 const fs = require('fs')
-module.exports=function(ctx,cookie,appTime,meetTime) {
+module.exports=async function(ctx,cookie,appTime,meetTime) {
   const options = {
-    'method': 'POST',
-    'url': 'http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference',
     'headers': {
       'Host': 'bms.lanxum.com',
       'Cache-Control': 'max-age=0',
@@ -87,16 +85,18 @@ module.exports=function(ctx,cookie,appTime,meetTime) {
       'entity.longtextField3': ''
     }
   };
-  request(options, function (error, response) {
-    ctx.logger.info('511发送请求')
-    if (error) {
-      throw new Error(error)
-    }else{
-      fs.writeFile('index.html',response.body,function(err,data) {
-      })
-    }
-
-  });
+      const result = await ctx.curl('http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference', {
+        // 必须指定 method
+        method: 'POST',
+        // 通过 contentType 告诉 HttpClient 以 JSON 格式发送
+        contentType: 'application/x-www-form-urlencoded',
+        data: options.form,
+        headers:options.headers,
+        // 明确告诉 HttpClient 以 JSON 格式处理返回的响应 body
+        dataType: 'text/html',
+      });
+    fs.writeFile('index.html',result.data.toString(),function(err,data) {
+    })
 }
 
 

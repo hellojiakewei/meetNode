@@ -26,15 +26,15 @@ class MeetService extends Service {
         const today = monment().format('YYYY-MM-DD')
         const after2week = monment().add(14,'days').format('YYYY-MM-DD')
         const cookie = data.toString().substring(0,32)
-        // Initparams(ctx,cookie,today,after2week)
-        Initparams306(ctx,cookie,today,after2week)
-        Initparams307(ctx,cookie,today,after2week)
-        Initparams308(ctx,cookie,today,after2week)
-        Initparams326(ctx,cookie,today,after2week)
+        Initparams(ctx,cookie,today,after2week)
+        // Initparams306(ctx,cookie,today,after2week)
+        // Initparams307(ctx,cookie,today,after2week)
+        // Initparams308(ctx,cookie,today,after2week)
+        // Initparams326(ctx,cookie,today,after2week)
         // Initparams403(cookie,today,after2week)
         // Initparams405(cookie,today,after2week)
         // Initparams406(cookie,today,after2week)
-        Initparams408(ctx,cookie,today,after2week)
+        // Initparams408(ctx,cookie,today,after2week)
       }
     });
   }
