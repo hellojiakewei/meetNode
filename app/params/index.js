@@ -2,17 +2,8 @@ const request = require('request');
 const fs = require('fs')
 module.exports=async function(ctx,cookie,appTime,meetTime) {
   const options = {
-    'headers': {
-      'Host': 'bms.lanxum.com',
-      'Cache-Control': 'max-age=0',
-      'Upgrade-Insecure-Requests': '1',
-      'Origin': 'http://bms.lanxum.com',
-      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
-      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-      'Referer': 'http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference',
-      'Accept-Language': 'zh-CN,zh;q=0.9',
+    headers: {
       'Cookie': `JSESSIONID=${cookie}`,
-      'Content-Type': 'application/x-www-form-urlencoded'
     },
     form: {
       'geturl': `/query.action?obj=a55&m=newpage&ffe201201985874qTZS4_lkid=a512017AE43337AxwNTp&ffe201201985874qTZS4=511会议室（立思辰大厦）&ffe2012005369413Ogl4=${meetTime}&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference`,
