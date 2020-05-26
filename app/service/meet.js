@@ -13,22 +13,19 @@ const Initparams406 = require('../params/meet406');
 const Initparams408 = require('../params/meet408');
 const Service = require('egg').Service;
 const monment = require('moment')
+const lineByLine = require('n-readlines');
 const url = 'http://bms.lanxum.com/query.action?m=save&obj=a55&rtnURL=%2Fcontroller.action%3Fname%3DScheduledConference';
 
 class MeetService extends Service {
-  async autoMeet() {
-    const {ctx} = this;
-    fs.readFile('cookie.txt', 'utf-8', async (err, data) => {
-      if (err) {
-        ctx.logger.info('cookie文件服务成功')
-      } else {
+    async autoMeet() {
+        const {ctx} = this;
+        const liner = new lineByLine('./cookie.txt');
+        const newCookie = liner.next().toString()
+        console.log("newCookie%s", newCookie)
         //发起 自动请求
         const today = monment().format('YYYY-MM-DD')
-        const after2week = monment().add(14,'days').format('YYYY-MM-DD')
-        console.log(data)
-        const cookie = data.toString().substring(0,32)
-        console.log(cookie)
-        Initparams(ctx,cookie.replace('/\n',''),today,after2week)
+        const after2week = monment().add(14, 'days').format('YYYY-MM-DD')
+        Initparams(ctx, newCookie, today, after2week)
         // Initparams306(ctx,cookie,today,after2week)
         // Initparams307(ctx,cookie,today,after2week)
         // Initparams308(ctx,cookie,today,after2week)
@@ -37,9 +34,7 @@ class MeetService extends Service {
         // Initparams405(cookie,today,after2week)
         // Initparams406(cookie,today,after2week)
         // Initparams408(ctx,cookie,today,after2week)
-      }
-    });
-  }
+    }
 }
 
 module.exports = MeetService;

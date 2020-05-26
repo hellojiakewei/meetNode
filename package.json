@@ -10,6 +10,7 @@
     "egg": "^2.26.1",
     "egg-scripts": "^2.13.0",
     "moment": "^2.26.0",
+    "n-readlines": "^1.0.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
