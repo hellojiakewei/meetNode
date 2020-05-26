@@ -5,6 +5,7 @@ node_modules
 cookie.txt
 /run
 /typings
+/logs/*
 
 # local env files
 .env.local

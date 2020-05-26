@@ -7,7 +7,7 @@ class Meet511 extends Subscription {
     return {
       cron: '0 59 23 * * ?',
       type: 'all',
-      immediate:false
+      immediate:true
     };
   }
 
