@@ -87,16 +87,17 @@ module.exports=function(ctx,cookie,appTime,meetTime) {
       'entity.longtextField3': ''
     }
   };
-  request(options, function (error, response) {
-    ctx.logger.info('511发送请求')
-    if (error) {
-      throw new Error(error)
-    }else{
-      fs.writeFile('index.html',response.body,function(err,data) {
-      })
-    }
-
-  });
+  console.log(options)
+  // request(options, function (error, response) {
+  //   ctx.logger.info('511发送请求')
+  //   if (error) {
+  //     throw new Error(error)
+  //   }else{
+  //     fs.writeFile('index.html',response.body,function(err,data) {
+  //     })
+  //   }
+  //
+  // });
 }
 
 
