@@ -28,7 +28,7 @@ class MeetService extends Service {
         console.log(data)
         const cookie = data.toString().substring(0,32)
         console.log(cookie)
-        Initparams(ctx,cookie,today,after2week)
+        Initparams(ctx,cookie.replace('/\n',''),today,after2week)
         // Initparams306(ctx,cookie,today,after2week)
         // Initparams307(ctx,cookie,today,after2week)
         // Initparams308(ctx,cookie,today,after2week)
