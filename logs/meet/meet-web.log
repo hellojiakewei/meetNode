@@ -22,3 +22,8 @@
 2020-08-14 16:02:26,928 INFO 46484 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/jiakewei/meetNode/app/schedule/cookieSchedule.js&cron=0%2059%2023%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-08-14+16:02:26
 2020-08-14 16:02:27,099 INFO 46484 [-/127.0.0.1/-/172ms SCHEDULE /__schedule?path=/Users/jiakewei/meetNode/app/schedule/cookieSchedule.js&cron=0%2059%2023%20*%20*%20%3F&type=all&immediate=true] cookie成功写入文件2020-08-14
 2020-08-14 16:02:37,420 INFO 46484 [-/127.0.0.1/-/10484ms SCHEDULE /__schedule?path=/Users/jiakewei/meetNode/app/schedule/meet511.js&cron=0%200%200%20*%20*%20%3F&type=all&immediate=true] params:408发送请求
+2020-08-14 16:57:28,238 INFO 56304 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/jiakewei/meetNode/app/schedule/cookieSchedule.js&cron=0%2059%2023%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-08-14+16:57:28
+2020-08-14 16:57:28,449 INFO 56304 [-/127.0.0.1/-/213ms SCHEDULE /__schedule?path=/Users/jiakewei/meetNode/app/schedule/cookieSchedule.js&cron=0%2059%2023%20*%20*%20%3F&type=all&immediate=true] cookie成功写入文件2020-08-14
+2020-08-14 16:57:38,767 INFO 56304 [-/127.0.0.1/-/10522ms SCHEDULE /__schedule?path=/Users/jiakewei/meetNode/app/schedule/meet511.js&cron=0%200%200%20*%20*%20%3F&type=all&immediate=true] params:408发送请求
+2020-08-14 17:04:19,131 INFO 57102 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/jiakewei/meetNode/app/schedule/cookieSchedule.js&cron=0%2059%2023%20*%20*%20%3F&type=all&immediate=true] 获取cookie 2020-08-14+17:04:19
+2020-08-14 17:04:19,335 INFO 57102 [-/127.0.0.1/-/207ms SCHEDULE /__schedule?path=/Users/jiakewei/meetNode/app/schedule/cookieSchedule.js&cron=0%2059%2023%20*%20*%20%3F&type=all&immediate=true] cookie成功写入文件2020-08-14

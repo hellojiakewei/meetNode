@@ -25,7 +25,7 @@ class MeetService extends Service {
         //发起 自动请求
         const today = monment().format('YYYY-MM-DD')
         const after2week = monment().add(14, 'days').format('YYYY-MM-DD')
-        Initparams(ctx, newCookie, today, after2week)
+        // Initparams(ctx, newCookie, today, after2week)
         // Initparams306(ctx,cookie,today,after2week)
         // Initparams307(ctx,cookie,today,after2week)
         // Initparams308(ctx,cookie,today,after2week)

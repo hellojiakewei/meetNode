@@ -89,7 +89,8 @@ module.exports=function(ctx,cookie,appTime,meetTime) {
     }
   };
   request(options, function (error, response) {
-    ctx.logger.info('params:408发送请求')
+    console.log(options)
+    console.log("408 发送请求 预定会议室")
     if (error) {
       throw new Error(error)
     }else{

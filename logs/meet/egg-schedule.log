@@ -113,3 +113,57 @@
 2020-08-14 16:02:26,936 INFO 46484 [Job#1597392146925161497454446901] /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js execute succeed, used 9ms
 2020-08-14 16:02:26,936 INFO 46484 [Job#1597392146926161497465659451] /Users/jiakewei/meetNode/app/schedule/meet511.js executing by app
 2020-08-14 16:02:26,949 INFO 46484 [Job#1597392146926161497465659451] /Users/jiakewei/meetNode/app/schedule/meet511.js execute succeed, used 13ms
+2020-08-14 16:57:28,233 INFO 56303 [Timer] /Users/jiakewei/meetNode/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41551769ms at 2020-08-15 04:30:00.002
+2020-08-14 16:57:28,233 INFO 56303 [Timer] /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25351767ms at 2020-08-15 00:00:00.000
+2020-08-14 16:57:28,234 INFO 56303 [Timer] /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25352767ms at 2020-08-15 00:00:01.001
+2020-08-14 16:57:28,234 INFO 56303 [Timer] /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js next time will execute immediate
+2020-08-14 16:57:28,234 INFO 56303 [Timer] /Users/jiakewei/meetNode/app/schedule/meet326.js next time will execute after 25381766ms at 2020-08-15 00:00:30.000
+2020-08-14 16:57:28,234 INFO 56303 [Timer] /Users/jiakewei/meetNode/app/schedule/meet511.js next time will execute immediate
+2020-08-14 16:57:28,235 INFO 56303 [Timer] /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js next time will execute after 25291765ms at 2020-08-14 23:59:00.000
+2020-08-14 16:57:28,236 INFO 56303 [Timer] /Users/jiakewei/meetNode/app/schedule/meet511.js next time will execute after 25351764ms at 2020-08-15 00:00:00.000
+2020-08-14 16:57:28,048 INFO 56304 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-14 16:57:28,048 INFO 56304 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-14 16:57:28,048 INFO 56304 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-14 16:57:28,048 INFO 56304 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js
+2020-08-14 16:57:28,048 INFO 56304 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet326.js
+2020-08-14 16:57:28,048 INFO 56304 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet511.js
+2020-08-14 16:57:28,235 INFO 56304 [Job#1597395448234194511504758011] /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js executing by app
+2020-08-14 16:57:28,245 INFO 56304 [Job#1597395448234194511504758011] /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js execute succeed, used 9ms
+2020-08-14 16:57:28,245 INFO 56304 [Job#1597395448236194511515180301] /Users/jiakewei/meetNode/app/schedule/meet511.js executing by app
+2020-08-14 16:57:28,259 INFO 56304 [Job#1597395448236194511515180301] /Users/jiakewei/meetNode/app/schedule/meet511.js execute succeed, used 14ms
+2020-08-14 17:02:43,668 INFO 56894 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-14 17:02:43,669 INFO 56894 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-14 17:02:43,669 INFO 56894 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-14 17:02:43,669 INFO 56894 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js
+2020-08-14 17:02:43,669 INFO 56894 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet326.js
+2020-08-14 17:02:43,669 INFO 56894 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet511.js
+2020-08-14 17:03:21,504 INFO 56974 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-14 17:03:21,504 INFO 56974 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-14 17:03:21,504 INFO 56974 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-14 17:03:21,504 INFO 56974 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js
+2020-08-14 17:03:21,504 INFO 56974 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet326.js
+2020-08-14 17:03:21,505 INFO 56974 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet511.js
+2020-08-14 17:03:57,901 INFO 57048 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-14 17:03:57,901 INFO 57048 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-14 17:03:57,901 INFO 57048 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-14 17:03:57,901 INFO 57048 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js
+2020-08-14 17:03:57,901 INFO 57048 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet326.js
+2020-08-14 17:03:57,901 INFO 57048 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet511.js
+2020-08-14 17:04:19,125 INFO 57100 [Timer] /Users/jiakewei/meetNode/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41140877ms at 2020-08-15 04:30:00.002
+2020-08-14 17:04:19,126 INFO 57100 [Timer] /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24940874ms at 2020-08-15 00:00:00.000
+2020-08-14 17:04:19,126 INFO 57100 [Timer] /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24941874ms at 2020-08-15 00:00:01.000
+2020-08-14 17:04:19,126 INFO 57100 [Timer] /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js next time will execute immediate
+2020-08-14 17:04:19,127 INFO 57100 [Timer] /Users/jiakewei/meetNode/app/schedule/meet326.js next time will execute after 24970874ms at 2020-08-15 00:00:30.001
+2020-08-14 17:04:19,127 INFO 57100 [Timer] /Users/jiakewei/meetNode/app/schedule/meet511.js next time will execute immediate
+2020-08-14 17:04:19,128 INFO 57100 [Timer] /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js next time will execute after 24880873ms at 2020-08-14 23:59:00.001
+2020-08-14 17:04:19,129 INFO 57100 [Timer] /Users/jiakewei/meetNode/app/schedule/meet511.js next time will execute after 24940872ms at 2020-08-15 00:00:00.001
+2020-08-14 17:04:18,947 INFO 57102 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-08-14 17:04:18,947 INFO 57102 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-08-14 17:04:18,947 INFO 57102 [egg-schedule]: register schedule /Users/jiakewei/meetNode/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-08-14 17:04:18,947 INFO 57102 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js
+2020-08-14 17:04:18,947 INFO 57102 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet326.js
+2020-08-14 17:04:18,947 INFO 57102 [egg-schedule]: register schedule /Users/jiakewei/meetNode/app/schedule/meet511.js
+2020-08-14 17:04:19,128 INFO 57102 [Job#159739585912719862549568371] /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js executing by app
+2020-08-14 17:04:19,138 INFO 57102 [Job#159739585912719862549568371] /Users/jiakewei/meetNode/app/schedule/cookieSchedule.js execute succeed, used 10ms
+2020-08-14 17:04:19,138 INFO 57102 [Job#159739585912819862565151591] /Users/jiakewei/meetNode/app/schedule/meet511.js executing by app
+2020-08-14 17:04:19,147 INFO 57102 [Job#159739585912819862565151591] /Users/jiakewei/meetNode/app/schedule/meet511.js execute succeed, used 9ms

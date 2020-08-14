@@ -92,3 +92,38 @@
 2020-08-14 16:02:26,027 INFO 46483 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/app.js"
 2020-08-14 16:02:26,028 INFO 46483 [egg-watcher:agent] watcher start success
 2020-08-14 16:02:26,037 INFO 46483 [egg:core] dump config after ready, 4ms
+2020-08-14 16:57:27,267 INFO 56303 [egg:logger] init all loggers with options: {"dir":"/Users/jiakewei/meetNode/logs/meet","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meet-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-14 16:57:27,274 INFO 56303 [egg:core] dump config after load, 3ms
+2020-08-14 16:57:27,311 INFO 56303 [egg-watcher] Start watching: ["/Users/jiakewei/meetNode/app","/Users/jiakewei/meetNode/config","/Users/jiakewei/meetNode/mocks","/Users/jiakewei/meetNode/mocks_proxy","/Users/jiakewei/meetNode/app.js"]
+2020-08-14 16:57:27,311 INFO 56303 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/app"
+2020-08-14 16:57:27,311 INFO 56303 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/config"
+2020-08-14 16:57:27,311 INFO 56303 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/mocks"
+2020-08-14 16:57:27,311 INFO 56303 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/mocks_proxy"
+2020-08-14 16:57:27,311 INFO 56303 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/app.js"
+2020-08-14 16:57:27,312 INFO 56303 [egg-watcher:agent] watcher start success
+2020-08-14 16:57:27,322 INFO 56303 [egg:core] dump config after ready, 4ms
+2020-08-14 17:02:42,938 WARN 56303 [agent:development] reload worker because /Users/jiakewei/meetNode/app/service/meet.js___jb_old___ rename
+2020-08-14 17:02:42,730 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/service/meet.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2020-08-14 17:02:42,732 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/service/meet.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1889384,"size":1666,"blocks":8,"atimeMs":1597395762618.335,"mtimeMs":1597395762618.46,"ctimeMs":1597395762620.6719,"birthtimeMs":1597395762618.335,"atime":"2020-08-14T09:02:42.618Z","mtime":"2020-08-14T09:02:42.618Z","ctime":"2020-08-14T09:02:42.621Z","birthtime":"2020-08-14T09:02:42.618Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-14 17:02:42,733 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/service/meet.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2020-08-14 17:03:20,744 WARN 56303 [agent:development] reload worker because /Users/jiakewei/meetNode/app/params/index.js___jb_old___ rename
+2020-08-14 17:03:20,540 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/params/meet408.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2020-08-14 17:03:20,541 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/params/meet408.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1889392,"size":6790,"blocks":16,"atimeMs":1597395800477.6301,"mtimeMs":1597395800477.7637,"ctimeMs":1597395800479.7483,"birthtimeMs":1597395800477.6301,"atime":"2020-08-14T09:03:20.478Z","mtime":"2020-08-14T09:03:20.478Z","ctime":"2020-08-14T09:03:20.480Z","birthtime":"2020-08-14T09:03:20.478Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-14 17:03:20,542 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/params/meet408.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2020-08-14 17:03:20,542 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/params/index.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2020-08-14 17:03:20,542 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/params/index.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1889393,"size":6593,"blocks":16,"atimeMs":1597395800482.5447,"mtimeMs":1597395800482.6338,"ctimeMs":1597395800482.988,"birthtimeMs":1597395800482.5447,"atime":"2020-08-14T09:03:20.483Z","mtime":"2020-08-14T09:03:20.483Z","ctime":"2020-08-14T09:03:20.483Z","birthtime":"2020-08-14T09:03:20.483Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-14 17:03:20,543 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/params/index.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2020-08-14 17:03:57,153 WARN 56303 [agent:development] reload worker because /Users/jiakewei/meetNode/app/params/meet408.js___jb_old___ rename
+2020-08-14 17:03:56,948 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/params/meet408.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2020-08-14 17:03:56,949 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/params/meet408.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1889420,"size":6797,"blocks":16,"atimeMs":1597395836888.2083,"mtimeMs":1597395836888.3105,"ctimeMs":1597395836890.3086,"birthtimeMs":1597395836888.2083,"atime":"2020-08-14T09:03:56.888Z","mtime":"2020-08-14T09:03:56.888Z","ctime":"2020-08-14T09:03:56.890Z","birthtime":"2020-08-14T09:03:56.888Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-08-14 17:03:56,949 INFO 56303 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jiakewei/meetNode/app/params/meet408.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2020-08-14 17:04:18,156 INFO 57100 [egg:logger] init all loggers with options: {"dir":"/Users/jiakewei/meetNode/logs/meet","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meet-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-14 17:04:18,166 INFO 57100 [egg:core] dump config after load, 7ms
+2020-08-14 17:04:18,202 INFO 57100 [egg-watcher] Start watching: ["/Users/jiakewei/meetNode/app","/Users/jiakewei/meetNode/config","/Users/jiakewei/meetNode/mocks","/Users/jiakewei/meetNode/mocks_proxy","/Users/jiakewei/meetNode/app.js"]
+2020-08-14 17:04:18,202 INFO 57100 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/app"
+2020-08-14 17:04:18,202 INFO 57100 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/config"
+2020-08-14 17:04:18,202 INFO 57100 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/mocks"
+2020-08-14 17:04:18,202 INFO 57100 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/mocks_proxy"
+2020-08-14 17:04:18,202 INFO 57100 [egg-watcher] Start watching: "/Users/jiakewei/meetNode/app.js"
+2020-08-14 17:04:18,203 INFO 57100 [egg-watcher:agent] watcher start success
+2020-08-14 17:04:18,218 INFO 57100 [egg:core] dump config after ready, 5ms

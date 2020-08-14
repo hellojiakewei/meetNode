@@ -87,7 +87,7 @@ module.exports=function(ctx,cookie,appTime,meetTime) {
       'entity.longtextField3': ''
     }
   };
-  console.log(options)
+  // console.log(options)
   // request(options, function (error, response) {
   //   ctx.logger.info('511发送请求')
   //   if (error) {
