@@ -1,0 +1,33 @@
+2020-08-14 15:55:56,561 ERROR 45364 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open './cookie.txt'
+    at Object.openSync (fs.js:458:3)
+    at new LineByLine (/Users/jiakewei/meetNode/node_modules/n-readlines/readlines.js:23:26)
+    at MeetService.autoMeet (/Users/jiakewei/meetNode/app/service/meet.js:22:23)
+    at Meet511.subscribe (/Users/jiakewei/meetNode/app/schedule/meet511.js:17:25)
+    at Object.task (/Users/jiakewei/meetNode/node_modules/egg-schedule/lib/load_schedule.js:37:22)
+    at Messenger.<anonymous> (/Users/jiakewei/meetNode/node_modules/egg-schedule/app.js:46:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/jiakewei/meetNode/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "./cookie.txt"
+name: "unhandledRejectionError"
+pid: 45364
+hostname: jiakeweideMacBook-Pro.local
+
+2020-08-14 15:57:05,179 ERROR 45566 nodejs.ReferenceError: cookie is not defined
+    at MeetService.autoMeet (/Users/jiakewei/meetNode/app/service/meet.js:36:27)
+    at Meet511.subscribe (/Users/jiakewei/meetNode/app/schedule/meet511.js:17:25)
+    at Object.task (/Users/jiakewei/meetNode/node_modules/egg-schedule/lib/load_schedule.js:37:22)
+    at Messenger.<anonymous> (/Users/jiakewei/meetNode/node_modules/egg-schedule/app.js:46:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/jiakewei/meetNode/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)
+
+pid: 45566
+hostname: jiakeweideMacBook-Pro.local
+

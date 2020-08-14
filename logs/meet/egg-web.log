@@ -40,3 +40,106 @@
 2020-05-25 17:01:20,283 INFO 33643 [egg:core] dump config after load, 4ms
 2020-05-25 17:01:20,292 INFO 33643 [egg-watcher:application] watcher start success
 2020-05-25 17:01:20,298 INFO 33643 [egg:core] dump config after ready, 4ms
+2020-08-14 15:55:56,319 INFO 45364 [egg:logger] init all loggers with options: {"dir":"/Users/jiakewei/meetNode/logs/meet","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meet-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-14 15:55:56,368 INFO 45364 [egg-multipart] stream mode enable
+2020-08-14 15:55:56,511 INFO 45364 [egg-static] starting static serve /public/ -> /Users/jiakewei/meetNode/app/public
+2020-08-14 15:55:56,514 INFO 45364 [egg-security] use csrf middleware
+2020-08-14 15:55:56,515 INFO 45364 [egg-security] use methodnoallow middleware
+2020-08-14 15:55:56,515 INFO 45364 [egg-security] use noopen middleware
+2020-08-14 15:55:56,516 INFO 45364 [egg-security] use nosniff middleware
+2020-08-14 15:55:56,516 INFO 45364 [egg-security] use xssProtection middleware
+2020-08-14 15:55:56,517 INFO 45364 [egg-security] use xframe middleware
+2020-08-14 15:55:56,517 INFO 45364 [egg-security] use dta middleware
+2020-08-14 15:55:56,517 INFO 45364 [egg-security] compose 7 middlewares into one security middleware
+2020-08-14 15:55:56,525 INFO 45364 [egg:core] dump config after load, 4ms
+2020-08-14 15:55:56,536 INFO 45364 [egg-watcher:application] watcher start success
+2020-08-14 15:55:56,542 INFO 45364 [egg:core] dump config after ready, 5ms
+2020-08-14 15:55:56,562 ERROR 45364 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open './cookie.txt'
+    at Object.openSync (fs.js:458:3)
+    at new LineByLine (/Users/jiakewei/meetNode/node_modules/n-readlines/readlines.js:23:26)
+    at MeetService.autoMeet (/Users/jiakewei/meetNode/app/service/meet.js:22:23)
+    at Meet511.subscribe (/Users/jiakewei/meetNode/app/schedule/meet511.js:17:25)
+    at Object.task (/Users/jiakewei/meetNode/node_modules/egg-schedule/lib/load_schedule.js:37:22)
+    at Messenger.<anonymous> (/Users/jiakewei/meetNode/node_modules/egg-schedule/app.js:46:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/jiakewei/meetNode/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "./cookie.txt"
+name: "unhandledRejectionError"
+pid: 45364
+hostname: jiakeweideMacBook-Pro.local
+
+2020-08-14 15:57:04,960 INFO 45566 [egg:logger] init all loggers with options: {"dir":"/Users/jiakewei/meetNode/logs/meet","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meet-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-14 15:57:04,983 INFO 45566 [egg-multipart] stream mode enable
+2020-08-14 15:57:05,115 INFO 45566 [egg-static] starting static serve /public/ -> /Users/jiakewei/meetNode/app/public
+2020-08-14 15:57:05,117 INFO 45566 [egg-security] use csrf middleware
+2020-08-14 15:57:05,118 INFO 45566 [egg-security] use methodnoallow middleware
+2020-08-14 15:57:05,118 INFO 45566 [egg-security] use noopen middleware
+2020-08-14 15:57:05,119 INFO 45566 [egg-security] use nosniff middleware
+2020-08-14 15:57:05,119 INFO 45566 [egg-security] use xssProtection middleware
+2020-08-14 15:57:05,119 INFO 45566 [egg-security] use xframe middleware
+2020-08-14 15:57:05,120 INFO 45566 [egg-security] use dta middleware
+2020-08-14 15:57:05,120 INFO 45566 [egg-security] compose 7 middlewares into one security middleware
+2020-08-14 15:57:05,127 INFO 45566 [egg:core] dump config after load, 4ms
+2020-08-14 15:57:05,138 INFO 45566 [egg-watcher:application] watcher start success
+2020-08-14 15:57:05,145 INFO 45566 [egg:core] dump config after ready, 5ms
+2020-08-14 15:57:05,180 ERROR 45566 nodejs.ReferenceError: cookie is not defined
+    at MeetService.autoMeet (/Users/jiakewei/meetNode/app/service/meet.js:36:27)
+    at Meet511.subscribe (/Users/jiakewei/meetNode/app/schedule/meet511.js:17:25)
+    at Object.task (/Users/jiakewei/meetNode/node_modules/egg-schedule/lib/load_schedule.js:37:22)
+    at Messenger.<anonymous> (/Users/jiakewei/meetNode/node_modules/egg-schedule/app.js:46:21)
+    at Messenger.emit (events.js:315:20)
+    at Messenger._onMessage (/Users/jiakewei/meetNode/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:327:22)
+    at emit (internal/child_process.js:876:12)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)
+
+pid: 45566
+hostname: jiakeweideMacBook-Pro.local
+
+2020-08-14 15:59:23,561 INFO 45952 [egg:logger] init all loggers with options: {"dir":"/Users/jiakewei/meetNode/logs/meet","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meet-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-14 15:59:23,584 INFO 45952 [egg-multipart] stream mode enable
+2020-08-14 15:59:23,725 INFO 45952 [egg-static] starting static serve /public/ -> /Users/jiakewei/meetNode/app/public
+2020-08-14 15:59:23,727 INFO 45952 [egg-security] use csrf middleware
+2020-08-14 15:59:23,727 INFO 45952 [egg-security] use methodnoallow middleware
+2020-08-14 15:59:23,728 INFO 45952 [egg-security] use noopen middleware
+2020-08-14 15:59:23,728 INFO 45952 [egg-security] use nosniff middleware
+2020-08-14 15:59:23,729 INFO 45952 [egg-security] use xssProtection middleware
+2020-08-14 15:59:23,729 INFO 45952 [egg-security] use xframe middleware
+2020-08-14 15:59:23,729 INFO 45952 [egg-security] use dta middleware
+2020-08-14 15:59:23,729 INFO 45952 [egg-security] compose 7 middlewares into one security middleware
+2020-08-14 15:59:23,737 INFO 45952 [egg:core] dump config after load, 5ms
+2020-08-14 15:59:23,745 INFO 45952 [egg-watcher:application] watcher start success
+2020-08-14 15:59:23,752 INFO 45952 [egg:core] dump config after ready, 5ms
+2020-08-14 16:01:36,969 INFO 46335 [egg:logger] init all loggers with options: {"dir":"/Users/jiakewei/meetNode/logs/meet","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meet-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-14 16:01:36,994 INFO 46335 [egg-multipart] stream mode enable
+2020-08-14 16:01:37,135 INFO 46335 [egg-static] starting static serve /public/ -> /Users/jiakewei/meetNode/app/public
+2020-08-14 16:01:37,137 INFO 46335 [egg-security] use csrf middleware
+2020-08-14 16:01:37,138 INFO 46335 [egg-security] use methodnoallow middleware
+2020-08-14 16:01:37,138 INFO 46335 [egg-security] use noopen middleware
+2020-08-14 16:01:37,139 INFO 46335 [egg-security] use nosniff middleware
+2020-08-14 16:01:37,139 INFO 46335 [egg-security] use xssProtection middleware
+2020-08-14 16:01:37,139 INFO 46335 [egg-security] use xframe middleware
+2020-08-14 16:01:37,140 INFO 46335 [egg-security] use dta middleware
+2020-08-14 16:01:37,140 INFO 46335 [egg-security] compose 7 middlewares into one security middleware
+2020-08-14 16:01:37,148 INFO 46335 [egg:core] dump config after load, 4ms
+2020-08-14 16:01:37,159 INFO 46335 [egg-watcher:application] watcher start success
+2020-08-14 16:01:37,166 INFO 46335 [egg:core] dump config after ready, 5ms
+2020-08-14 16:02:26,724 INFO 46484 [egg:logger] init all loggers with options: {"dir":"/Users/jiakewei/meetNode/logs/meet","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"meet-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-08-14 16:02:26,748 INFO 46484 [egg-multipart] stream mode enable
+2020-08-14 16:02:26,886 INFO 46484 [egg-static] starting static serve /public/ -> /Users/jiakewei/meetNode/app/public
+2020-08-14 16:02:26,889 INFO 46484 [egg-security] use csrf middleware
+2020-08-14 16:02:26,889 INFO 46484 [egg-security] use methodnoallow middleware
+2020-08-14 16:02:26,890 INFO 46484 [egg-security] use noopen middleware
+2020-08-14 16:02:26,890 INFO 46484 [egg-security] use nosniff middleware
+2020-08-14 16:02:26,890 INFO 46484 [egg-security] use xssProtection middleware
+2020-08-14 16:02:26,891 INFO 46484 [egg-security] use xframe middleware
+2020-08-14 16:02:26,891 INFO 46484 [egg-security] use dta middleware
+2020-08-14 16:02:26,891 INFO 46484 [egg-security] compose 7 middlewares into one security middleware
+2020-08-14 16:02:26,899 INFO 46484 [egg:core] dump config after load, 4ms
+2020-08-14 16:02:26,911 INFO 46484 [egg-watcher:application] watcher start success
+2020-08-14 16:02:26,918 INFO 46484 [egg:core] dump config after ready, 5ms
